@@ -4,20 +4,6 @@ import sys
 import logging
 
 logging.basicConfig(level=logging.INFO)
-'''
-    编写一个search(s)的函数：
-    1、在当前目录以及子目录下查找文件名包含字符串s的文件
-    2、打印路径
-    调用方法：
-    >>> python search.py test
-    py/test.py
-    py/test_os.py
-    my/logs/unit-test-result.txt
-
-    思路：
-    1、获得要查询目录以及所有其子目录的路径
-    2、查找这些路径下的文件，对关键字进行匹配
-'''
 
 
 def search(position='.', key=sys.argv[1]):
