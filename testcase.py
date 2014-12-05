@@ -3,12 +3,6 @@
 import os
 import logging
 
-'''
-    在当前工作目录下
-    生成测试用的文件夹和文件
-    用logging记录文件夹或文件名重复的情况
-    输出执行过程
-'''
 print '查看当前工作目录：' + os.getcwd()
 testdir = raw_input('请输入一个文件夹名字以供测试：')
 try:
